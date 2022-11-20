@@ -24,28 +24,45 @@
         <!-- Main -->
         <main>
             <!-- About me -->
-            <h1 class="fs-2">Who am I?</h1>
             <div class="row">
-                <p class="fs-5 col-md-5">
-                    My name is Parker Cranfield, and I am a second year student at the <a
-                        href="https://www.nottingham.ac.uk/">University of
-                        Nottingham</a> studying <strong>BSc Computer Science with AI</strong>
-                    I enjoy various aspects of computer science, but my main interests are in <strong>web
-                        development</strong>, <strong>machine learning</strong> and general purpose
-                    <strong>software engineering</strong>.
-                </p>
-                <a class="col-md-5" href="https://picsum.photos/200" target="_blank">
-                    <img src="https://picsum.photos/200" alt="placeholder image" class="img-fluid"></a>
+                <div class="col-sm-5">
+                    <h1 class="fs-2">Who am I?</h1>
+                    <p class="fs-5">
+                        My name is Parker Cranfield, and I am a second year student at the <a
+                            href="https://www.nottingham.ac.uk/">University of
+                            Nottingham</a> studying <strong>BSc Computer Science with AI</strong>
+                        I enjoy various aspects of computer science, but my main interests are in <strong>web
+                            development</strong>, <strong>machine learning</strong> and general purpose
+                        <strong>software engineering</strong>.
+                    </p>
+                </div>
+                <div class="col-sm-5">
+                    <h1 class="fs-2">Things I like!</h1>
+                    <p class="fs-5">
+                        Languages: <strong>Python</strong>, <strong>Java</strong>, <strong>JavaScript</strong>,
+                        <strong>Haskell</strong>
+                    </p>
+                    <p class="fs-5">
+                        IDEs: <strong>VSCode</strong>
+                    </p>
+                    <p class="fs-5">
+                        OSs: <strong>Windows</strong>, <strong>Debian</strong>
+                    <p class="fs-5">
+                        Tools / Frameworks: <strong>Node.js</strong>, <strong>React</strong>, <strong>Express</strong>,
+                        <strong>Gradle</strong>, <strong>Docker</strong>
+                </div>
+                <!-- <a class="col-md-5" href="https://picsum.photos/200" target="_blank">
+                    <img src="https://picsum.photos/200" alt="placeholder image" class="img-fluid"></a> -->
             </div>
             <!-- half linebreak -->
             <hr class="col-md-5">
             <!-- Cards -->
             <h1 class="fs-2">Current Projects</h1>
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="card text-bg-dark" style="width: 20rem;">
-                        <img src="images/BJSS-Logo-Blue&Navy-RGB.svg" class="card-img-top text-bg-light"
-                            alt="card banner">
+            <div class="row card-row">
+                <div class="col-sm-5 custom-card-container">
+                    <div class="card text-bg-dark custom-card" style="width: 20rem;">
+                        <div class="logo" style="background-image: url('images/BJSS-Logo-Blue&Navy-RGB.svg')">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Eco Emissions Simulator</h5>
                             <p class="card-text">A web app to help people understand the impact of their lifestyle on
@@ -55,9 +72,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-5">
-                    <div class="card text-bg-dark" style="width: 20rem;">
-                        <img src="images/DA512.png" class="card-img-top text-bg-light" alt="card banner">
+                <div class="col-sm-5 custom-card-container">
+                    <div class="card text-bg-dark custom-card" style="width: 20rem;">
+                        <div class="logo" style="background-image: url('images/DA512.png')">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Dark Archer</h5>
                             <p class="card-text">My take on a private file server</p>

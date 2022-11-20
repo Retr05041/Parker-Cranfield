@@ -1,3 +1,26 @@
+:root {
+    --project-logo-size: 125px;
+}
+
 .fs-1 {
     color: #00004d;
+}
+
+.custom-card {
+    min-height: 365px;
+}
+
+.custom-card>.card-img-top {
+    height: 100px;
+}
+
+.card>.logo {
+    min-height: var(--project-logo-size);
+    background: no-repeat center center;
+    background-color: white;
+    background-size: contain;
+}
+
+.custom-card-container {
+    margin-bottom: 20px;
 }
